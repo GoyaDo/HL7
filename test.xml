@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xsi:schemaLocation="urn:hl7-org:v3 ..\sdschemas\SDA.xsd" xmlns="urn:hl7-org:v3" xmlns:mif="urn:hl7-org:v3/mif" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <realmCode code="CN"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040"/>
+    <templateId root="2.16.156.10011.2.1.1.1"/>
+    <id root="2.16.156.10011.1.1.2" extension=""/>
+    <code code="HSDA00.01" codeSystem="2.16.156.10011.2.4" codeSystemName="卫生信息共享文档编码体系"/>
+    <title>个人基本健康信息登记</title>
+    <effectiveTime xsi:type="TS"/>
+    <confidentialityCode codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality" displayName="正常访问保密级别"/>
+    <languageCode code="zh-CN"/>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <entry typeCode="111"/>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <entry typeCode="111"/>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
